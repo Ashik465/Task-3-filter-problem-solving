@@ -1,16 +1,11 @@
-
-import './App.css'
+import Product from "./component/Product";
 
 function App() {
- 
-
   return (
     <>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Product></Product>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
